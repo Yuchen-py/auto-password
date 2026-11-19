@@ -1,0 +1,20 @@
+# 构建产物（PyInstaller 生成，含本机路径，勿提交）
+build/
+dist/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 运行时数据（含真实密码，勿提交）
+password.json
+
+# 临时验收脚本
+_verify_empty_app.py
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+Thumbs.db
